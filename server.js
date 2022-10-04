@@ -1,5 +1,5 @@
-const redis = require('redis');
-const request = require('request');
+const redis   = require('redis');
+const request   = require('request');
 const bodyParser = require('body-parser');
 const express = require('express');
 const pino = require('pino');
