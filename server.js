@@ -1,5 +1,5 @@
-const redis   = require('redis');
-const request   = require('request');
+const redis = require('redis');
+const request = require('request');
 const bodyParser = require('body-parser');
 const express = require('express');
 const pino = require('pino');
@@ -383,4 +383,3 @@ const port = process.env.CART_SERVER_PORT || '8080';
 app.listen(port, () => {
     logger.info('Started on port', port);
 });
-
