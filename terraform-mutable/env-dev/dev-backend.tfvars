@@ -1,3 +1,3 @@
 bucket = "b50-tf-state-bucket"
-key    = "databases/dev/terrafom.tfstate"
+key    = "mutable/cart/dev/terrafom.tfstate"
 region = "us-east-1"
